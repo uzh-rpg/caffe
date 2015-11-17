@@ -23,9 +23,9 @@
 // 2.1. If yes, we will add a temporary solution to redirect the namespace.
 // TODO(Yangqing): Once gflags solves the problem in a more elegant way, let's
 // remove the following hack.
-#ifndef GFLAGS_GFLAGS_H_
+//#ifndef GFLAGS_GFLAGS_H_ 
 namespace gflags = google;
-#endif  // GFLAGS_GFLAGS_H_
+//#endif  // GFLAGS_GFLAGS_H_
 
 // Disable the copy and assignment operator for a class.
 #define DISABLE_COPY_AND_ASSIGN(classname) \
